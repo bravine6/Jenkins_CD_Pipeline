@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage('Build') {
             steps{
+                // First step
                 echo "Building with Maven"
                 echo "Fetching the source code from the directory path specified by the environment variable"
             }
